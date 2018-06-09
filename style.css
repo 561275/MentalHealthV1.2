@@ -1,0 +1,256 @@
+/* CSS Sumative by Zain Talat  */
+body {
+  margin: 0;
+font-size: 10px;
+font-family: 'Tajawal', sans-serif;
+  color:white;
+background-color: #fcfcfc;
+}
+
+/* P,h1,h3,h4,h5,h6 used to style text on Webpage  */
+p {
+  margin: 0;
+font-family: 'Tajawal', sans-serif;
+  color:white;
+  font-size: 10px;
+  position: absolute;
+  bottom: 1;
+  text-align: center;
+ vertical-align: top;
+     top: 89%;
+    left: 0%;
+}
+
+h1 {
+  margin: 0;
+font-size: 12px;
+font-family: 'Tajawal', sans-serif;
+  color:white;
+    vertical-align: top;
+}
+
+h3{
+    color: #383535;
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+}
+h4{
+    color: #383535;
+    font-size: 14px;
+    position: absolute;
+    left: 60px;
+    top: 50%;
+}
+
+h5{
+    color: #383535;
+    font-size: 14px;
+    position: absolute;
+    left: 60px;
+    top: 75%;
+}
+h6{
+    color: #383535;
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+    top: 60%;
+}
+img {
+  height: 70px;
+    width: 90px;
+    vertical-align: bottom;
+    text-align: left;
+ 
+}
+.img2 {
+position: absolute;
+top:65%;
+left:73%;
+height: 180px;
+width: 300px;
+  border-radius: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #00A69C;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #00A69C;
+}
+
+.btn {
+  display: none;
+  background-color: #ffffff;
+  border: none;
+  color: #00A69C ;
+  padding: 16px 32px;
+  width: 67%;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 70px;
+  font-weight: 400;
+  position:absolute;
+      top: 50%;
+    left: 7%;
+}
+
+.btn:hover {opacity: 0.6}
+
+.btn2 {
+  display: none;
+  background-color: #00A69C;
+  border: 10px solid white border;
+  color: white;
+  padding: 16px 32px;
+  width: 85%;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 70px;
+  font-weight: 400;
+  position:absolute;
+      top: 60%;
+    left: 7%;
+}
+
+.btn2:hover {opacity: 0.6}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color:#00A69C;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Style the content */
+.content {
+    background-color: #00A69C;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+/* Media Quries When the screen is less than 600 pixels wide. Hides various elements such as buttons and text */
+@media screen and (max-width: 600px) {
+    h3 {display: none;}
+    h4{display: none;}
+    h5 {display: none;}
+    h6{display: none;}
+    .btn {display: block;}
+    .btn2 {display: block;}
+.icon-bar {display: none;}
+    .img2 {display: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        background-color: #00A69C;
+    }     
+}
+@media screen and (max-width: 420px) {
+.footer {
+        background-color: #00A69C;
+    } 
+}

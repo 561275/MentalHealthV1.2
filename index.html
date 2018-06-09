@@ -1,0 +1,74 @@
+<<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <!--Adds Native-like Support on IOS devices and imports fonts -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon" sizes="120x120" href="logo.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Mental Health for Youth</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <!-- The social media icon bar -->
+        <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-google"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        </div>
+        <!--  The Top Navigation Menu with Hyperlinks-->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Fourms</a>
+            <a href="index.html">Contacts</a>
+            <a href="login.html">Log In</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div class="content">
+            <!-- Displays Logo and Text to Webpage -->
+            <img src="brain1.png" alt="Logo">
+            <h2>Welcome to the Mental Health App</h2>
+            <h1> Mental illnesses can take many forms, just as physical illnesses do. Join the community and help make a difference to defeat Mental ilnesses. </h1>
+
+        </div>
+
+        <div class="end" id=end>
+
+        </div>
+        <script>
+            //Makes Top Navigation Menu Responive
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <!--Text and Image for Website version -->
+        <h3> What is Mental Health? Why is it important?</h3>
+        <h4>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood. Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior could be affected. Many factors contribute to mental health problems, including: Biological factors, such as genes or brain chemistry.Life experiences, such as trauma or abuse and family history of mental health problems. This app is dedicated in gathering a community in which we can help solve our problems together. Help, discuss and learn more about Mental Health and its horrible stigma throught this app.</h4>
+        <img src="R1.jpg" class="img2">
+        <h6> What does it effect?</h6>
+        <h5>Mental illness refers to a wide range of mental health conditions — disorders that affect your mood, thinking and behavior. Examples of mental illness include
+            <br> depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviors.Many people have mental health concerns from time to time. But a
+            <br> mental health concern becomes a mental illness when ongoing signs and symptoms cause frequent stress and affect your ability to function. A mental illness
+            <br> can make you miserable and can cause problems in your daily life, such as at school or work or in relationships. In most cases, symptoms can be managed with
+            <br> a combination of medications and talk therapy (psychotherapy).</h5>
+    </body>
+    <!--Buttons for Login and Register that will appear on App -->
+    <a class="btn" href="login.html">Log In</a>
+    <button class="btn2">Register</button>
+    <!-- Terms and Service for the App -->
+    <p>By Signing Up, I agree to the Mental Health Assistance's Terms of Service, Payments Terms of Service, Privacy Policy and User Respect Policy. © 2018 Mental Healt for Teens, All Rights Reserved. </p>
+
+    </html>
